@@ -1,11 +1,13 @@
 <template>
   <div id="app">
+    <el-button type="primary">默认</el-button>
     <img src="./assets/logo.png">
     <router-view/>
   </div>
 </template>
 
 <script>
+import request from './helpers/request.js'
 export default {
   name: 'App'
 }
