@@ -1,6 +1,5 @@
 <template>
   <div id="app">
-    <el-button type="primary">默认</el-button>
     <img src="./assets/logo.png">
     <router-view/>
   </div>
