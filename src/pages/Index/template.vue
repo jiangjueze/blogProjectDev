@@ -24,7 +24,7 @@
         layout="prev, pager, next"
         :current-page="page"
         @current-change="onPageChange"
-        :page-size="10"
+        :page-size="20"
         :total="total"
       >
       </el-pagination>
