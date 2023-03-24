@@ -12,7 +12,7 @@
           <figcaption>{{ blog.user.username }}</figcaption>
         </figure>
         <h3>
-          {{ blog.title }} <span>{{ blog.createdAt }}</span>
+          {{ blog.title }} <span>{{ friendlyDate(blog.createdAt) }}</span>
         </h3>
         <p>
           {{ blog.description }}
